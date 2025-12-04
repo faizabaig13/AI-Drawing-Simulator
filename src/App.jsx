@@ -285,6 +285,25 @@ export default function App() {
           </div>
         </div>
       </div>
+{/* Watermark - Always Visible */}
+{/* WATERMARK — TOP CENTER — ALWAYS VISIBLE */}
+<div className="fixed top-15 right-39 -translate-x-1/2 z-[999999] 
+  bg-black/40 backdrop-blur-md px-4 py-2 rounded-lg 
+  text-white text-sm font-mono border border-cyan-400/30 
+  shadow-[0_0_12px_rgba(0,255,255,0.6)] pointer-events-none">
+  Built by 
+  <a
+    href="https://www.linkedin.com/in/faizabaig14/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="ml-1 text-cyan-300 hover:text-cyan-400 underline underline-offset-2 pointer-events-auto"
+  >
+    Faiza Baig
+  </a>
+</div>
+
+
+ 
     </div>
   );
 }
